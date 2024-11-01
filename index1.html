@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+
+    <link rel="stylesheet" href="styles1.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+     <div class="navv">
+    <nav class="navbar navbar-expand-lg navbar- bg-dark">
+        <h4 class="navbar-dark" href="#">NAVEEN KUMAR  </h4>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">GALLERY</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+    <!-- Hero Section -->
+    <header class="hero bg-secondary text-white text-center py-5">
+        
+        <h1>WELCOME TO MY PORTFOLIO</h1>
+        <h3>NAVEEN KUMAR</h3>
+        <p id="nad">I'm a Software engineer</p>
+        <a href="#projects" class="btn btn-primary">Know  More  </a>
+    
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 fade-in">
+        <div class="container">
+            <h2 class="text-center">ABOUT ME</h2>
+            <p class="text-center">I am a B.Tech student in Information Technology at Sree Vidyanikethan Engineering College.
+                I am passionate about technology and have a good  foundation in programming,
+                  and also a  small basics of Data structures and Algorithams.
+               I am also proficient in various software tools and technologies, including ,light room, cloud computing.
+               I am a quick learner and eager to apply my knowledge to real-world problems. 
+               I am also a team player and enjoy working with others to achieve common goals.</p>
+        </div>
+    </section>
+
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-light py-5 fade-in">
+        <div class="container">
+            <h2 class="text-center">MY PROJECTS</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        
+                        <div class="card-body">
+                            <h5 class="card-title"> QR CODE AND CAPTCHA GENERATION</h5>
+                            <p class="card-text">QR code generation involves creating a `QRCode` object,
+                                adding data, and saving the image.
+                                CAPTCHA generation uses the `ImageCaptcha` class to create an 
+                                image with random characters and save it.
+                                Both processes involve importing libraries, configuring settings,
+                                 and saving the output to a file.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">RESTAURANT WEBSITE</h5>
+                            <p class="card-text">Welcome to SLN ,Join us for an unforgettable dining experience that highlights flavor and warmth.Our website will include a carefully selected group of great restaurants, emphasizing their unique offers and welcoming atmosphere. Users can quickly browse menus, make reservations, and find the best restaurants in one place.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                       
+                        <div class="card-body">
+                            <h5 class="card-title">PORTFOLIO FOR ME</h5>
+                            <p class="card-text">A portfolio highlights your best work and skills.It helps you see your growth over time.It makes you more memorable to employers or schools.and also to gain the knowledge for creation any website or portfoli's.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="gallery" class="bg-light py-5 fade-in">
+        <div class="container">
+            <h2 class="text-center">GALLERY</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="1714400002527nav.jpg" class="img-fluid mb-4" alt="Gallery Image 1">
+                </div>
+                <div class="col-md-4">
+                    <img src="1723220824493.jpg" class="img-fluid mb-4" alt="Gallery Image 2">
+                </div>
+                <div class="col-md-4">
+                    <img src="1725333563953.jpg" class="img-fluid mb-4" alt="Gallery Image 3">
+                </div>
+                <div class="col-md-4">
+                    <img src="IMG_20240331_160742.jpg" class="img-fluid mb-4" alt="Gallery Image 4">
+                </div>
+                <div class="col-md-4">
+                    <img src="WhatsApp Image 2024-09-04 at 20.21.51_003662f7.jpg" class="img-fluid mb-4" alt="Gallery Image 5">
+                </div>
+                <div class="col-md-4">
+                    <img src="WhatsApp Image 2024-09-04 at 20.21.51_5d677bd811.jpg" class="img-fluid mb-4" alt="Gallery Image 6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 fade-in">
+        <div class="container">
+            <h2 class="text-center">CONTACT ME</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn text-center">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <!-- <p>&copy; 2024 My Portfolio. All rights reserved.</p> -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // Smooth scrolling for internal links
+        $('a.nav-link').on('click', function(event) {
+            event.preventDefault();
+            const target = $(this).attr('href');
+            $('html, body').animate({
+                scrollTop: $(target).offset().top
+            }, 800);
+        });
+
+        // Fade-in effect for sections
+        document.addEventListener("DOMContentLoaded", function() {
+            const sections = document.querySelectorAll('section');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            });
+            sections.forEach(section => {
+                section.classList.add('fade-in');
+                observer.observe(section);
+            });
+        });
+
+        // Fade-out effect on navigation
+        $('a.nav-link').on('click', function() {
+            $('body').fadeOut(300, function() {
+                window.location.href = $(this).attr('href');
+            });
+        });
+    </script>
+</body>
+</html>

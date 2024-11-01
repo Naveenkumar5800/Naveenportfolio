@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center;
+    background-size: cover;
+    height: 40vh;
+} 
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+     background-color:lightblue;
+      
+    
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+h2{
+    color: rgb(30, 110, 163);
+}
+nav{
+    color: rgb(255, 0, 217);
+}
+    
+.navv{
+    background-image: linear-gradient(to right top, #47d922, #caaf00, #ff6900, #ff0074, #eb12dc);
+}
+#nad{
+    color: black;
+}
+.col-md-4{
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.col-md-4:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+     
+      
+    
+}
